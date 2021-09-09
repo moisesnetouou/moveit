@@ -6,6 +6,7 @@ export function ChallengeBox() {
   const conextData = useContext(ChallengesContext);
 
   console.log(conextData);
+
   const hasActiveChallenge = true;
 
   return (
